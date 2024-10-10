@@ -1,6 +1,7 @@
 ﻿//begin
 //print('Hello, word!')
 //end.
+//Выше - первый код, созданный мной для работы в гите. Ниже - изменения (тоже для тренировки работы с гитом).
 function HypoPerimRightTriangle(a, b: real): (real, real);
 begin
   assert(a > 0);
@@ -9,7 +10,6 @@ begin
   var p := a + b + c;
   Result := (c, p);
 end;
-
 begin
   loop 3 do
   begin
